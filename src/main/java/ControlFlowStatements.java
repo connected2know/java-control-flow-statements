@@ -109,7 +109,7 @@ public class ControlFlowStatements {
 
 	}
 
-	public void theForLoop() {
+	public void forLoopStatement() {
 
 		for (int position = 0; position < 10; position++) { // we initialize a position variable with 0 and we put the
 															// condition that, the loop will execute until position is
@@ -249,7 +249,7 @@ public class ControlFlowStatements {
 		controlFlowStatements.doWhileStatement();
 
 		/* for (not infinite loop) */
-		controlFlowStatements.theForLoop();
+		controlFlowStatements.forLoopStatement();
 
 		/* break */
 		controlFlowStatements.breakStatement(3);
